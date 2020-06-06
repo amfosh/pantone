@@ -1,4 +1,4 @@
-const COLORS =    
+const colors =    
 [{"hex": "#34558b", "name": "19-4052", "year": "2020" },
 {"hex": "#ff6f61", "name": "16-1546", "year": "2019" },
 {"hex": "#645394", "name": "18-3838", "year": "2018"},
@@ -15,3 +15,19 @@ const COLORS =
 // {"hex": "#55865C", "name": "17-5641", "year": "2007"},
 // {"hex": "#55865C", "name": "17-5641", "year": "2006"},
 ]
+
+    const color = document.getElementById('color');
+    const colorName = document.getElementById('color-name');
+    const colorClick = document.getElementById('color-click');
+    const colorYear = document.getElementById('color-year');
+
+function colorChange() {
+    colorClick.addEventListener("click", function() {
+    let randomColor = colors[Math.floor(Math.random() * colors.length)];
+    console.log(randomColor)
+    color.style.backgroundColor = randomColor["hex"];
+    colorName.innerText = randomColor["name"];
+    colorYear.innerText = randomColor["year"];
+    })
+}
+colorChange();
