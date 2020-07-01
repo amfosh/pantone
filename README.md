@@ -1,6 +1,6 @@
 # pantone through the years
 
-A minimalist app that shows Pantone Color of The Year through the years. This project was inspired by TheCodePixi's [Pantone Randomizer] (https://github.com/thecodepixi/pantone-randomizer)
+A minimalist app that shows Pantone Color of The Year through the years. This project was inspired by TheCodePixi's [Pantone Randomizer](https://github.com/thecodepixi/pantone-randomizer)
 
 ## Installing
 
